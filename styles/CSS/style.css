@@ -80,6 +80,10 @@ body {
   cursor: pointer;
 }
 
+.question__text:has(+ .question__button-toggle:focus) {
+  color: #ad28eb;
+}
+
 .question__button-toggle {
   grid-column: 2/3;
   grid-row: 1/2;
